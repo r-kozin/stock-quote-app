@@ -537,7 +537,8 @@ hr.half-width {
 
 .App {
   width: 100%;
-  height: 100%;
+  height: fit-content;
+  min-height: 100%;
   padding: 0 1rem;
 }
 .dark-mode-toggle {
@@ -600,6 +601,10 @@ hr.half-width {
   flex-direction: column;
   justify-content: center;
   padding: 1rem 0;
+}
+.project-description>ul{
+  padding-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 /* On screens that are 992px or less */
